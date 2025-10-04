@@ -15,6 +15,6 @@
 	xmlns="http://www.w3.org/2000/svg"
 	{...otherSvgAttributes}
 >
-	<path d="M262.5 0H0V840H630V367.5H262.5V0Z" fill="inherit" />
-	<path d="M367.5 0V262.5H630L367.5 0Z" fill="inherit" />
+	<path d="M262.5 0H0V840H630V367.5H262.5V0Z" fill="current" />
+	<path d="M367.5 0V262.5H630L367.5 0Z" fill="current" />
 </svg>
