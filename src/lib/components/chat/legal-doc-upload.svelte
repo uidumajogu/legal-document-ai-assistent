@@ -85,7 +85,7 @@
 	}
 </script>
 
-<div class={cn('relative w-full max-w-[40rem] space-y-4 bg-stone-100 p-8', className)}>
+<div class={cn('relative w-full max-w-[40rem] space-y-4 bg-stone-100 p-2 lg:p-8', className)}>
 	{#if uploadingFile}
 		<div
 			class="absolute inset-0 z-1 flex items-center justify-center gap-x-4 bg-stone-50/80 backdrop-blur-[2px]"

@@ -58,7 +58,7 @@
 			<h2 class="text-xl font-semibold">{docData.name}</h2>
 		</div>
 
-		<ul class="min-h-full pt-4 pb-[100%]">
+		<ul class="min-h-full px-2 pt-4 pb-[100%]">
 			{#each chat.messages as message, messageIndex (messageIndex)}
 				<li>
 					{#if message.role === 'user'}
@@ -90,8 +90,8 @@
 			{/if}
 		</ul>
 
-		<div class="fixed right-0 bottom-0 left-0 z-2 w-full">
-			<div class="mx-auto w-full max-w-[48rem] bg-stone-100 pb-4">
+		<div class="fixed right-0 bottom-0 left-0 z-2 w-full px-px lg:px-0">
+			<div class="mx-auto w-full max-w-[48rem] bg-stone-100 pb-px xl:pb-4">
 				<form class="relative w-full leading-0" onsubmit={handleSubmit}>
 					<textarea
 						class="field-sizing-content min-h-20 w-full resize-none border border-stone-300 bg-stone-100 px-4 py-2 pb-8 outline-none placeholder:text-stone-500 invalid:border-red-500 focus-visible:border-stone-300 focus-visible:ring-1 focus-visible:ring-stone-500 focus-visible:ring-offset-1 focus-visible:ring-offset-stone-100 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-red-500"
